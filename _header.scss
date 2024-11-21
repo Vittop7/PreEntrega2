@@ -1,0 +1,19 @@
+.header
+{
+    width: 100%;
+    grid-area: header;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    animation-name: animacionfondotitulo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.header p
+{
+    color: black;
+    font-size: smaller;
+    font-weight: bold;
+}
