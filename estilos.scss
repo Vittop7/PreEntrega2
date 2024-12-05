@@ -3,6 +3,7 @@
 @import 'main';
 @import 'footer';
 
+
 .container
 {
     height: 100%;
@@ -37,6 +38,8 @@ body
         grid-template-rows: repeat(5,1fr);
         grid-template-columns: auto;
         font-size: small;
+        display: flex;
+        flex-direction: column;
     }
 }
 
